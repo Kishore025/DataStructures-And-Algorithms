@@ -1,0 +1,37 @@
+//Common interview trick :
+// you should treat any string questions like over here as an array question.
+//Strings are simply array of characters
+//Turn into an array ~ split()
+
+///----------------------------------------------------------------//
+//Create s function that reverses a string
+// 'Hi My Name is Kishore' should be
+//'erohsiK si emaN yM iH'
+
+function reverse(str) {
+  //check input
+  if (!str || str.length < 2 || typeof str !== "string") {
+    return "Not a string";
+  }
+
+  const backwards = [];
+  const totalItems = str.length - 1;
+
+  for (let i = totalItems; i >= 0; i--) {
+    backwards.push(str[i]);
+  }
+  console.log(backwards.join(""));
+
+  return backwards.join("");
+}
+
+function reverse2(str) {
+  console.log(str.split("").reverse().join(""));
+  return str.split("").reverse().join("");
+}
+
+const reverse3 = (str) => str.split("").reverse().join("");
+
+reverse("Hi My Name is Kishore");
+reverse2("Hi My Name is Kishore");
+reverse3("Hi My Name is Kishore");
