@@ -5,15 +5,15 @@ function search(arr, target, leftIndex, rightIndex) {
   if (leftIndex > rightIndex) {
     return -1;
   }
-  let mid = Math.floor((leftIndex + rightIndex) / 2);
-  if (target === arr[mid]) {
-    return mid;
+  let midIndex = Math.floor((leftIndex + rightIndex) / 2);
+  if (target === arr[midIndex]) {
+    return midIndex;
   }
 
-  if (target < arr[mid]) {
-    return search(arr, target, leftIndex, mid - 1);
+  if (target < arr[midIndex]) {
+    return search(arr, target, leftIndex, midIndex - 1);
   } else {
-    return search(arr, target, mid + 1, rightIndex);
+    return search(arr, target, midIndex + 1, rightIndex);
   }
 }
 
