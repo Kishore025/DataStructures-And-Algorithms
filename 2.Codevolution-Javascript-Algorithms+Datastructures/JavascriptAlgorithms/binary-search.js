@@ -1,4 +1,4 @@
-function recursiveBinarySearc(arr, target) {
+function recursiveBinarySearch(arr, target) {
   return search(arr, target, 0, arr.length - 1);
 }
 function search(arr, target, leftIndex, rightIndex) {
@@ -17,6 +17,6 @@ function search(arr, target, leftIndex, rightIndex) {
   }
 }
 
-console.log(recursiveBinarySearc([-5, 2, 4, 6, 10], 10));
-console.log(recursiveBinarySearc([-5, 2, 4, 6, 10], 2));
-console.log(recursiveBinarySearc([-5, 2, 4, 6, 10], -1));
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10));
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 2));
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -1));
