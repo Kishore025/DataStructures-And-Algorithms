@@ -34,4 +34,4 @@ console.log(binarySearch([-5, 2, 4, 6, 10], 10)); // return 4
 console.log(binarySearch([-5, 2, 4, 6, 10], 6)); // return 3
 console.log(binarySearch([-5, 2, 4, 6, 10], 20)); // return -1
 
-//Big-O = O(n)
+//Big-O = O(logn) because divided elements by half means n/2
