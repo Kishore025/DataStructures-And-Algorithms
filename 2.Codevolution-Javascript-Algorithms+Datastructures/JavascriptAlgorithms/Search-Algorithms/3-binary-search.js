@@ -17,6 +17,8 @@ function search(arr, target, leftIndex, rightIndex) {
   }
 }
 
-console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10));
-console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 2));
-console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -1));
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 10)); //4
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], 2)); //1
+console.log(recursiveBinarySearch([-5, 2, 4, 6, 10], -1)); //-1
+
+//Big-O = O(logn)
