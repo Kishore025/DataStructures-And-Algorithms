@@ -23,4 +23,6 @@ function bubbleSort(arr) {
   return arr;
 }
 
-console.log(bubbleSort([-6, 20, 8, -2, 4])); //
+console.log(bubbleSort([-6, 20, 8, -2, 4]));
+
+//Big-O = O(n^2)
