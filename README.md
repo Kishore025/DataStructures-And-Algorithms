@@ -3,10 +3,12 @@
 😉 Learning Datastructures and Algorithms
 
 ## Prerequisites
+
 - Node.js version 12.0 or higher
 - npm (included with Node.js)
 
 ## Big-O
+
 Big-O notation is a way of expressing the time complexity of algorithms. It is a measure of the performance of an algorithm, specifically the number of operations it takes to complete.
 
 In general, the time complexity of an algorithm is a function of the size of the input, denoted as "n" in Big-O notation. For example, if an algorithm takes twice as long to run on an input of size n as it does on an input of size n/2, the time complexity is O(n).
@@ -20,10 +22,15 @@ Some common time complexities in Big-O notation are:
 - O(n) - Linear time complexity. The algorithm's running time is directly proportional to the size of the input.
 
 ## Big-O Trend
+
 ![Big-O Trend](https://github.com/Kishore025/DataStructures-And-Algorithms/blob/master/Cheatsheet/2-BigOTrend.png)
 
 ## Data Structures
+
 - Array
+- Object
+- Set
+- Map
 - Linked List
 - Stack
 - Queue
@@ -31,10 +38,9 @@ Some common time complexities in Big-O notation are:
 - Tree
 - Graph
 - Hash Table
-- Set
-- Map
 
 ## Algorithms
+
 - Sorting algorithms (e.g. bubble sort, merge sort, quick sort)
 - Search algorithms (e.g. linear search, binary search)
 - Tree traversal algorithms (e.g. in-order, pre-order, post-order)
