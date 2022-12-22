@@ -34,9 +34,6 @@ Some common time complexities in Big-O notation are:
 - Set
 - Map
 
-## Data Structures Cheatsheet
-![DS CheatSheet](https://github.com/FrancoFernando/cheat-sheets/blob/main/data-structures-complexity/data-structures-time-complexity.png)
-
 ## Algorithms
 - Sorting algorithms (e.g. bubble sort, merge sort, quick sort)
 - Search algorithms (e.g. linear search, binary search)
