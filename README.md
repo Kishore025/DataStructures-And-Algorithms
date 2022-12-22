@@ -20,7 +20,7 @@ Some common time complexities in Big-O notation are:
 - O(n) - Linear time complexity. The algorithm's running time is directly proportional to the size of the input.
 
 ## Big-O Trend
-![plot](./directory_1/directory_2/.../directory_n/plot.png)
+![Big-O Trend](https://github.com/Kishore025/DataStructures-And-Algorithms/blob/master/Cheatsheet/2-BigOTrend.png)
 
 ## Data Structures
 - Array
