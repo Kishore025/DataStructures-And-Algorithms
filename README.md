@@ -22,9 +22,6 @@ Some common time complexities in Big-O notation are:
 ## Big-O Trend
 ![Big-O Trend](https://github.com/Kishore025/DataStructures-And-Algorithms/blob/master/Cheatsheet/2-BigOTrend.png)
 
-## DataStructure Cheatsheet
-![DS CheatSheet](https://github.com/FrancoFernando/cheat-sheets/blob/main/data-structures-complexity/data-structures-time-complexity.png)
-
 ## Data Structures
 - Array
 - Linked List
@@ -36,6 +33,9 @@ Some common time complexities in Big-O notation are:
 - Hash Table
 - Set
 - Map
+
+## Data Structures Cheatsheet
+![DS CheatSheet](https://github.com/FrancoFernando/cheat-sheets/blob/main/data-structures-complexity/data-structures-time-complexity.png)
 
 ## Algorithms
 - Sorting algorithms (e.g. bubble sort, merge sort, quick sort)
