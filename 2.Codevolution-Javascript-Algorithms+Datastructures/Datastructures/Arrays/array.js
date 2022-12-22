@@ -31,4 +31,26 @@ const words = [
 const longwords = words.filter((word) => word.length > 4);
 console.log(longwords);
 
-//reduce() :
+//reduce() : this method executes a reducer function on each element of the array and returns a singlr value
+const numbers = [1, -1, 2, 3];
+const sum = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+});
+console.log(`Reduce method return the sum value of number is ${sum}`);
+
+//concat()
+const fName = "Kishore";
+const lName = "Kumar";
+
+const fullName = fName.concat(" " + lName);
+console.log(fullName);
+
+//slice() : method returns a new array containing a portion of the array on which it is implemented. The original remains unchanged.
+var array = [1, 2, 3, 45, 6, 7];
+const newArray = array.slice(1, 4);
+console.log(newArray);
+
+//splice() :
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+console.log(fruits);
